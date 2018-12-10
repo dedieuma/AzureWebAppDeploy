@@ -1,0 +1,27 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "siteName": {
+        "value": "dedieumaWebApp"
+      },
+      "hostingPlanName": {
+        "value": "dedieumaWebApp-HostingPlan"
+      },
+      "sku": {
+        "value": "F1"
+      },
+      "workerSize": {
+        "value": "0"
+      },
+      "repoURL": {
+        "value": "https://adedieumeille@dev.azure.com/adedieumeille/azureWebAppDeploy/_git/azureWebAppDeploy"
+      },
+      "branch": {
+        "value": "master"
+      },
+      "location": {
+        "value": "westeurope"
+      }
+    }
+  }
